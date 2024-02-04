@@ -18,11 +18,9 @@ Remember to add the overlay to the config.txt file.
 
 ### ADAFRUIT SPH0645
 
-/*:
   - 3.3V Connector Pin 1
   - GND   Connector Pin 39
   - LRCL  Connector Pin 35 GPIO 19
   - DOUT  Connector Pin 37 GPIO 20
   - BCLK  Connector Pin 12 GPIO 18
   - SEL   Connector Pin 17 3.3V
-*/
