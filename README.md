@@ -24,3 +24,7 @@ Remember to add the overlay to the config.txt file.
   - DOUT  Connector Pin 37 GPIO 20
   - BCLK  Connector Pin 12 GPIO 18
   - SEL   Connector Pin 17 3.3V
+
+## i2s_audio_read_test.py
+
+Simple demo applcaition for recording audio from I2S mems mic
