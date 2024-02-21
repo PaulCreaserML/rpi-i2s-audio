@@ -35,7 +35,7 @@
 			status = "okay";
 			simple-audio-card,cpu {
 				sound-dai = <&i2s_clk_producer>;
-                    		dai-tdm-slot-width = <24>;
+                    		dai-tdm-slot-width = <32>;
                     		dai-tdm-slot-num   = <2>;
 			};
 			dailink0_slave: simple-audio-card,codec {
