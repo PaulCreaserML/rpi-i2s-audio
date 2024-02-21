@@ -8,6 +8,7 @@ def audio_callback( sddata, data, time, status):
 	global audio_buffer
 	audio_data = sddata.copy()
 	audio_data = audio_data[:, 1]
+	# TODO Add DC filter here
 	if audio_buffer is None:
 		audio_buffer = audio_data
 	else:
