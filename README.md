@@ -28,3 +28,7 @@ Remember to add the overlay to the config.txt file.
 ## i2s_audio_read_test.py
 
 Simple demo applcaition for recording audio from I2S mems mic
+
+# Warning
+
+After looking at the raw data via python using the sounddevice module, it seems there is a dc offset in the output data. Subtracting the mean or high pass filtering can be used to remove thia offset. During playback you will hearma pop or click when audio playback starts or finishes.
