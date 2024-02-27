@@ -27,7 +27,7 @@ Remember to add the overlay to the config.txt file.
 
 ## i2s_audio_read_test.py
 
-Simple demo applcaition for recording audio from I2S mems mic
+Simple demo application for recording audio from I2S mems mic
 
 # Warning
 
