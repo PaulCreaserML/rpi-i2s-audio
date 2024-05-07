@@ -16,6 +16,8 @@ sudo cp rpi-i2s-mic.dtbo  /boot/overlays/.
 
 Remember to add the overlay to the config.txt file.
 
+dtoverlay=rpi-i2s-mic
+
 ### ADAFRUIT SPH0645
 
   - 3.3V Connector Pin 1
